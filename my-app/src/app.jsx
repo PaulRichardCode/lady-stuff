@@ -7,7 +7,9 @@ export default function MyApp() {
     <div>
       <Header />
       <Footer />
-      <Image />
+      <Image name="Paul Richard" age="15" place="nigeria" />
+      <Image name="chilwell" age="28" place="England" />
+      <Image name="felix" age="25" place="togo" />
     </div>
   );
 }
