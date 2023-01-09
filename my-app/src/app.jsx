@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./header.jsx";
 
-export default function App() {
+export default function MyApp() {
   return (
     <div>
       <Header />
