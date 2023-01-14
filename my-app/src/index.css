@@ -25,3 +25,8 @@ code {
   border: 2px inset blue;
   width: 40%;
 }
+
+.nav {
+  width: 100px;
+  height: 100px;
+}
