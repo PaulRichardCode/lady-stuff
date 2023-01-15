@@ -2,8 +2,8 @@ import React from "react";
 
 export default function card(props) {
   return (
-    <div>
-      <img src={props.img} alt={props.title} />
+    <div className="cont">
+      <img className="img" src={props.img} alt={props.title} />
       <p>
         🛑{props.rating}
         <span className="text1">
