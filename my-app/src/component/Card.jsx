@@ -6,7 +6,9 @@ export default function card(props) {
       <img src={props.img} alt={props.title} />
       <p>
         🛑{props.rating}
-        <span className="text1">({props.review}) -Online</span>
+        <span className="text1">
+          ({props.review}) -{props.location}
+        </span>
       </p>
       <h4>{props.title}</h4>
       <h3>

@@ -27,6 +27,7 @@ export default function App() {
         title={cut.title}
         rating={cut.stats.rating}
         review={cut.stats.reviewCount}
+        location={cut.location}
       />
     );
   });
