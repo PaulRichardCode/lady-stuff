@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "./component/Navbar.js";
 import Data from "./component/Data.js";
 import Hero from "./component/Hero";
-import Card from "./component/Card";
+import Card from "./component/Card.jsx";
+import girl from "./component/img/girl.jpg";
 
 /*
 Challenge:
@@ -18,11 +19,23 @@ still be block elements, stacked vertically. We'll add styling later.
 
 export default function App() {
   // <Hero />
+  const mapper = Data.map((cut) => {
+    return (
+      <Card
+        price={cut.price}
+        img={girl}
+        title={cut.title}
+        rating={cut.stats.rating}
+        review={cut.stats.reviewCount}
+      />
+    );
+  });
 
   return (
     <div>
       <Navbar />
       <Card />
+      {mapper}
     </div>
   );
 }
