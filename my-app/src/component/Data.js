@@ -1,6 +1,6 @@
 import girl from "./img/girl.jpg";
-import wedding from "./img/wedding.jpg";
-import bike from "./img/bike/jpg";
+import wedding from "./img/wedding.png";
+import bike from "./img/bike.jpeg";
 
 export default [
   {

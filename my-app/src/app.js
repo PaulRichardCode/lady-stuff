@@ -1,5 +1,6 @@
 import React from "react";
-import Navbar from "./component/Navbar";
+import Navbar from "./component/Navbar.js";
+import Data from "./component/Data.js";
 import Hero from "./component/Hero";
 import Card from "./component/Card";
 
@@ -17,9 +18,11 @@ still be block elements, stacked vertically. We'll add styling later.
 
 export default function App() {
   // <Hero />
+
   return (
     <div>
       <Navbar />
+      <Card />
     </div>
   );
 }
