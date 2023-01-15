@@ -28,6 +28,7 @@ export default function App() {
         rating={cut.stats.rating}
         review={cut.stats.reviewCount}
         location={cut.location}
+        className="jaga"
       />
     );
   });
@@ -35,8 +36,7 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <Card />
-      {mapper}
+      <section className="bro">{mapper}</section>
     </div>
   );
 }

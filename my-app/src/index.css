@@ -34,3 +34,9 @@ code {
 .text1 {
   opacity: 60%;
 }
+
+.bro {
+  padding: 1rem;
+  display: flex;
+  overflow: scroll;
+}
