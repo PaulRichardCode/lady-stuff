@@ -35,7 +35,7 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <section className="bro container">{mapper}</section>
+      <section className="container">{mapper}</section>
     </div>
   );
 }
