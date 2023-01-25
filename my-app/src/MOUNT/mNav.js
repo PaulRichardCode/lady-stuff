@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Travel() {
+export default function travel() {
   return (
-    <div>
-      <h1>My travel Journal</h1>
+    <div className="navii">
+      <h1 className="header">My travel Journal</h1>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-body {
+/* body {
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -39,4 +39,44 @@ code {
   padding: 1rem;
   display: flex;
   overflow: scroll;
+} */
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: concert one;
+}
+
+.navii {
+  background-color: rgb(255, 78, 78);
+  width: 100%;
+  height: 100%;
+  color: whitesmoke;
+  text-align: center;
+  padding: 1rem;
+}
+
+.header {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.body {
+  margin: 2rem 0;
+}
+
+.pog {
+  margin: 2rem 0;
+  background-color: rgb(221, 221, 221);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px rgba(51, 51, 51, 0.267);
+}
+ */
+.img {
+  cursor: pointer;
+}
+
+.img:hover {
+  background-color: #333;
 }
