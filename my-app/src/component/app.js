@@ -1,8 +1,8 @@
-import React from "react";
-import Navbar from "./component/Navbar.js";
-import Data from "./component/Data.js";
-import Hero from "./component/Hero";
-import Card from "./component/Card.jsx";
+/* import React from "react";
+import Navbar from "./Navbar.js";
+import Data from "./Data.js";
+import Hero from "./Hero";
+import Card from "./Card.jsx";
 import girl from "./component/img/girl.jpg";
 
 export default function App() {
@@ -27,3 +27,4 @@ export default function App() {
     </div>
   );
 }
+ */
