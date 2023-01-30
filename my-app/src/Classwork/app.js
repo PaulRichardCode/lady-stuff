@@ -5,7 +5,7 @@ export default function App() {
 
   return (
     <div>
-      <h1>Is state important to know?</h1>
+      <h1>Is state important know?</h1>
       <h2>{result}</h2>
     </div>
   );
