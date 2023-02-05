@@ -106,10 +106,14 @@ h2 {
   border-radius: 50%;
   padding: 2rem;
   font-size: 2rem;
-  background-color: white;
+  background-color: rgb(250, 0, 0);
   color: #333;
   text-align: center;
   width: 15%;
   margin: 0 auto;
   border-radius: 50%;
+}
+
+.res {
+  background-color: red;
 }

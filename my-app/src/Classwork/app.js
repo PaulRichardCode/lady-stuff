@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div>
       <h1>Is state important now</h1>
-      <h2>{result}</h2>
+      <h2 className="res">{result}</h2>
     </div>
   );
 }
