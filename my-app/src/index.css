@@ -110,10 +110,6 @@ h2 {
   color: #333;
   text-align: center;
   width: 15%;
-  margin: 0 auto;
+  margin: 2px auto;
   border-radius: 50%;
-}
-
-.res {
-  background-color: red;
 }
