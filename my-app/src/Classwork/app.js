@@ -2,11 +2,12 @@ import React from "react";
 
 export default function App() {
   return (
-    <div>
-      <h1>Is state important to know?</h1>
-      <div className="res" onClick={handleClick}>
-        <h2>{isImportant}</h2>
+    <div className="main">
+      <button className="counter--minus">-</button>
+      <div className="counter--count">
+        <h1>0</h1>
       </div>
+      <button className="counter--plus">+</button>
     </div>
   );
 }

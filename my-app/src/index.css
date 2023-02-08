@@ -35,13 +35,13 @@ button {
 }
 
 .counter--minus {
-  position: absolute;
-  top: 156px;
-  left: 32%;
+  position: relative;
+  top: 27px;
+  left: 17px;
 }
 
-.counter--minus {
-  position: absolute;
-  top: 156px;
-  left: 32%;
+.counter--plus {
+  position: relative;
+  top: 27px;
+  left: -17px;
 }
