@@ -26,6 +26,10 @@ export default function App() {
       <button className="counter--plus " onClick={add}>
         +
       </button> */}
+
+      <button>Add item</button>
+      <p>Thing 1</p>
+      <p>Thing 2</p>
     </div>
   );
 }

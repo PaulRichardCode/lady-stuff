@@ -126,6 +126,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100vh;
   position: relative;
 }
@@ -142,7 +143,7 @@ body {
 }
 
 button {
-  background-color: rgb(104, 104, 104);
+  background-color: rgb(145, 28, 28);
   width: 40px;
   height: 40px;
   border-radius: 50%;
