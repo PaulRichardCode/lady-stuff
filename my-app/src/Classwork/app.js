@@ -7,6 +7,8 @@ export default function App() {
     func(function (plus) {
       return plus + 1;
     });
+
+    /* ok */
   }
 
   function minus() {
