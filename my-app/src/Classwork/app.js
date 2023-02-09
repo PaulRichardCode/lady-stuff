@@ -1,23 +1,23 @@
 import React from "react";
 
 export default function App() {
-  const [value, func] = React.useState(0);
+  /*  const [value, func] = React.useState(0);
 
   function add() {
     func(function (plus) {
       return plus + 1;
     });
 
-    /* ok */
+ 
   }
 
   function minus() {
     func((substract) => substract - 1);
-  }
+  } */
 
   return (
     <div className="main">
-      <button className="counter--minus" onClick={minus}>
+      {/* <button className="counter--minus" onClick={minus}>
         -
       </button>
       <div className="counter--count">
@@ -25,7 +25,7 @@ export default function App() {
       </div>
       <button className="counter--plus " onClick={add}>
         +
-      </button>
+      </button> */}
     </div>
   );
 }
