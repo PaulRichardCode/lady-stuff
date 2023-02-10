@@ -6,14 +6,14 @@ export default function App() {
   function add() {
     func(function (plus) {
       return plus + 1;
-    });
-
- 
+    }); 
   }
 
   function minus() {
     func((substract) => substract - 1);
   } */
+
+  const [value, func] = React.useState("Thing 1", "Thing 2");
 
   return (
     <div className="main">
@@ -28,8 +28,7 @@ export default function App() {
       </button> */}
 
       <button>Add item</button>
-      <p>Thing 1</p>
-      <p>Thing 2</p>
+      <p>-</p>
     </div>
   );
 }
