@@ -1,34 +1,18 @@
 import React from "react";
 
 export default function App() {
-  /*  const [value, func] = React.useState(0);
+  const [isGoingOut, setIsGoingOut] = React.useState(true);
 
-  function add() {
-    func(function (plus) {
-      return plus + 1;
-    }); 
+  function click() {
+    setIsGoingOut((going) => !going);
   }
-
-  function minus() {
-    func((substract) => substract - 1);
-  } */
-
-  const [value, func] = React.useState("Thing 1", "Thing 2");
 
   return (
     <div className="main">
-      {/* <button className="counter--minus" onClick={minus}>
-        -
-      </button>
-      <div className="counter--count">
-        <h1>{value}</h1>
+      <h1>Do you feel like going out</h1>
+      <div className="div" onClick={click}>
+        <h1>yes</h1>
       </div>
-      <button className="counter--plus " onClick={add}>
-        +
-      </button> */}
-
-      <button>Add item</button>
-      <p>-</p>
     </div>
   );
 }
