@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function App() {
   /*   const [isGoingOut, setIsGoingOut] = React.useState(true);
@@ -10,10 +10,7 @@ export default function App() {
   const [thingsArray, setThingsArray] = React.useState(["Thing 1", "Thing 2"]);
 
   function addItem() {
-    const newThingText = `thing ${thingsArray.length + 1}`;
-    thingsArray.push(newThingText);
-    document.getElementById();
-    console.log(thingsArray);
+    setThingsArray((things) => [...things, `thing ${things.length}`]);
   }
 
   const thingsElements = thingsArray.map((thing) => <p key={thing}>{thing}</p>);
