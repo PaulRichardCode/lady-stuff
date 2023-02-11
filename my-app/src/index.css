@@ -144,8 +144,7 @@ body {
 
 .div {
   background-color: rgb(145, 28, 28);
-  width: 40px;
-  height: 40px;
+  padding: 0 2rem;
   border-radius: 50%;
   cursor: pointer;
   border-style: none;
