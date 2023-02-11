@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import React from "react";
 
 export default function App() {
   /*   const [isGoingOut, setIsGoingOut] = React.useState(true);
@@ -8,16 +7,22 @@ export default function App() {
     setIsGoingOut((going) => !going);
   }
  */
+  const [thingsArray, setThingsArray] = React.useState(["Thing 1", "Thing 2"]);
 
-  const thingArray = ["Thing 1", "Thing 2"];
+  function addItem() {
+    const newThingText = `thing ${thingsArray.length + 1}`;
+    thingsArray.push(newThingText);
+    document.getElementById();
+    console.log(thingsArray);
+  }
 
-  function addItem() {}
+  const thingsElements = thingsArray.map((thing) => <p key={thing}>{thing}</p>);
 
   return (
     <div className="main">
-      <h1>Do you feel like going out</h1>
-      <div className="div" o>
-        <h1>{isGoingOut ? "Yes" : "No"}</h1>
+      <button onClick={addItem}>Add Item</button>
+      <div className="div">
+        <h1>{thingsElements}</h1>
       </div>
     </div>
   );

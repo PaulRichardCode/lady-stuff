@@ -131,17 +131,6 @@ body {
   position: relative;
 }
 
-.counter--count {
-  background-color: azure;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  z-index: -10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .div {
   background-color: rgb(145, 28, 28);
   padding: 0 2rem;
