@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <div className="main">
-      <button onClick={addItem}>Add Items</button>
+      <button onClick={addItem}>Add Items:</button>
       <div className="div">
         <h1>{thingsElements}</h1>
       </div>
