@@ -6,9 +6,16 @@ const Ronke = () => {
   //get the data to Fetch
   //save te data to state
 
-  fetch("http://swapi.dev/api/people/1")
-    .then((res) => res.json())
-    .then((data) => setData(data));
+  console.log("component rendered");
+
+  React.useEffect(() => {
+    console.log("effect ran");
+    // fetch("http://swapi.dev/api/people/1")
+    //   .then((res) => res.json())
+    //   .then((data) => setData(data));
+  }, [count]);
+
+  //the second paramenter in the useEffect function is the dpendencies arrays
 
   return (
     <>
