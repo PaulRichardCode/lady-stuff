@@ -30,6 +30,10 @@ export default function App() {
     ]);
   }
 
+  function reset() {
+    setThingsArray((prevThings) => [prevThings.shift()]);
+  }
+
   const thingsElements = thingsArray.map((things) => <p>{things}</p>);
 
   return (
@@ -38,6 +42,7 @@ export default function App() {
       <div className="div">
         <h1>{thingsElements}</h1>
       </div>
+      <button onClick={reset}>reset</button>
     </div>
   );
 }
