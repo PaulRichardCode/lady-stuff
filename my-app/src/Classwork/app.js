@@ -7,16 +7,30 @@ export default function App() {
     setIsGoingOut((going) => !going);
   }
  */
-  const [thingsArray, setThingsArray] = React.useState(["Thing 1", "Thing 2"]);
+  // const [thingsArray, setThingsArray] = React.useState(["Thing 1", "Thing 2"]);
+
+  // function addItem() {
+  //   setThingsArray((prevThings) => [
+  //     ...prevThings,
+  //     `Thing ${prevThings.length + 1}`,
+  //   ]);
+  // }
+
+  // const thingsElements = thingsArray.map((thing) => <p key={thing}>{thing}</p>);
+
+  const [thingsArray, setThingsArray] = React.useState([
+    "Richard 1",
+    "Richard 2",
+  ]);
 
   function addItem() {
     setThingsArray((prevThings) => [
       ...prevThings,
-      `Thing ${prevThings.length + 1}`,
+      `Richard ${prevThings.length + 1}`,
     ]);
   }
 
-  const thingsElements = thingsArray.map((thing) => <p key={thing}>{thing}</p>);
+  const thingsElements = thingsArray.map((things) => <p>{things}</p>);
 
   return (
     <div className="main">
