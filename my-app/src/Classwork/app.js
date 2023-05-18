@@ -1,4 +1,5 @@
 import React from "react";
+import data from "../MOUNT/data";
 
 export default function App() {
   /*   const [isGoingOut, setIsGoingOut] = React.useState(true);
@@ -45,10 +46,12 @@ export default function App() {
   //     <button onClick={reset}>reset</button>
   //   </div>  );
 
-  const [item, setData] = React.useState(["Things 1", "Things 2"]);
+  const [item, setItem] = React.useState(["Things 1", "Things 2"]);
   console.log(item);
 
-  function addItem() {}
+  function addItem() {
+    setItem((data) => [...data, `Things ${data.length + 1}`]);
+  }
 
   const thingsElement = item.map((items) => <p>{items}</p>);
   return (

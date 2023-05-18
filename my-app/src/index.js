@@ -7,4 +7,4 @@ import Items from "./Classwork/items.jsx";
 import Apple from "./Classwork/app.js";
 import Api from "./ReactApi/react.jsx";
 
-ReactDOM.render(<Api />, document.querySelector("#root"));
+ReactDOM.render(<Apple />, document.querySelector("#root"));
